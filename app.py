@@ -42,5 +42,3 @@ def predict():
     # ✅ 7. Return result to HTML
     return render_template('index.html', prediction_text=f"💰 Predicted Price: ${prediction:,.2f}")
 
-if __name__ == "__main__":
-    app.run(debug=True)
